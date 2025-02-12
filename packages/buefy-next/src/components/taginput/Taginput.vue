@@ -337,7 +337,7 @@ export default defineComponent({
                 // after autocomplete events
                 this.requestID = requestAnimationFrame(() => {
                     this.newTag = ''
-                    this.$emit('typing', '')
+                    // this.$emit('typing', '')
                 })
             }
         },
